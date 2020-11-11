@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("localhost","root","root","nordlid");
+$link = mysqli_connect("a-eileen.dk.mysql","a_eileen_dk_portfoliodb","muffin12","a_eileen_dk_portfoliodb");
 
 //connection check
 if($link===false){
