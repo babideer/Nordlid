@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+}
+h1{
+    font-size: 1.3em;
+}
+h2, h3{
+    font-size:1.2em;
+    font-weight: 100;
+}
+p{
+    font-size:0.9em;
+    font-weight: 200;
+}
+.footer i{
+    font-size: 40px;
+}
+.container{
+    padding: 20px;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+.article{
+    padding: 50px;
+}
+label{
+    font-size: 10px;
+}
+.tag i{
+    font-size: 30px;
+}
+.needs-validation input{
+    background: transparent;
+    box-shadow: none;
+    border:none;
+    border-bottom: 1px solid #000000;
+}
+section.icons{
+    background-color:#2a697b;
+    padding: 50px; 
+}
+.socialicons img{
+    width: 300px;
+    padding-top: 30%;
+}
+.btn{
+    background-color: #e6007e; 
+}
+.footer{
+    padding: 50px;
+    background-color: #313131;
+}
+@media (min-width: 850px) {
+    h1{
+        font-size: 2em;
+    }
+    h2, h3 {
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 1em;
+    }
+}
